@@ -130,6 +130,10 @@ export class Service{
             fileId
         )
     }
+    getapikey(){
+        
+        return conf.appwriteKey
+    }
 }
 
 
